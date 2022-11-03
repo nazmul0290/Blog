@@ -1,0 +1,9 @@
+.app{
+  background-color: var(--bg-gray);
+  font-family: 'Hind', sans-serif;  
+  min-height: 100vh;
+  color: var(--font-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
