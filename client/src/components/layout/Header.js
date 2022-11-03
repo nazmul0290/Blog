@@ -13,7 +13,7 @@ const Header = () => {
   const changedVal = currentTheme === "light" ? "dark" : "light";
 
   return (
-    <nav className="">
+    <nav className="sticky-top">
       <div className="container d-flex align-items-center justify-content-between py-2">
         <div className="d-flex align-items-center justify-content-between w-100">
           <div className="big__header d-flex align-items-center ">

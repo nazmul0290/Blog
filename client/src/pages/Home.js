@@ -1,6 +1,10 @@
+import HeroArea from "../components/HeroArea/Hero";
 import Header from "../components/layout/Header";
 
 const HomePage = () => (
-    <Header/>
-)
+  <>
+    <Header />
+    <HeroArea />
+  </>
+);
 export default HomePage;
