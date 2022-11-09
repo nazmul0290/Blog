@@ -11,9 +11,10 @@ nav .big__header{
   height: 48px;
   font-size: 17px;
   margin: 10px 0;
+  max-width: 400px;
 }
 .nav__search input{
-  min-width: 350px;
+  width: 350px;
 }
 
 .navbar__nav{
@@ -58,4 +59,13 @@ nav .big__header{
   border: 1px solid var(--border-color);
   border-bottom: none;
   border-right: none;
+}
+
+.nav__theme__icon{
+  text-align: center;
+}
+@media screen and (max-width: 1024px){
+  .nav__search input {
+    width: auto;
+  }
 }
