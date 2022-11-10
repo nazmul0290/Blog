@@ -168,3 +168,14 @@ button:hover {
   font-weight: 600;
   text-transform: capitalize;
 }
+
+button.second__type{
+  padding: 12px 30px;
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius);
+  color: white;
+  transition: all 0.3s;
+}
+button.second__type:hover{
+  background-color: #3b4bd1;
+}

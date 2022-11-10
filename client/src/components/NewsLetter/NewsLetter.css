@@ -1,0 +1,34 @@
+.newsletter{
+    background-color: var(--bg-gray);
+}
+
+.newsletter__inside{
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius-mid);
+}
+
+.newsletter__input{
+    background-color: var(--bg-gray);
+    width: 400px;
+}
+
+.newsletter__inputarea{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 724px) {
+    .newsletter__input{
+        width: 100%;
+    }
+    
+    .newsletter button{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .newsletter__input input{
+        width: 100px;
+    }
+}

@@ -12,7 +12,12 @@ const HBlogTwo = () => {
             <div className="row">
               <SingleBTwo />
               <SingleBTwo />
-              <h2>This is the advertisement area</h2>
+              <div className="col-12">
+                <div className="blog-2__advertisement d-flex align-items-center justify-content-between my-3  p-3">
+                  <h2 className="big__header">Advertise With Us</h2>
+                  <button className="second__type">Learn More</button>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-lg-4 ">
